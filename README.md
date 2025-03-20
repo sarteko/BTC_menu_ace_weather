@@ -20,7 +20,7 @@
 
 ### 2. ⚙️ **Function of the OBJ_weather_set.sqf File**
 
-- The **OBJ_weather_set.sqf** file manages the **"time_sector"** variable and all settings related to weather and time.
+- The **weather_control_static.sqf** file manages the **"time_sector"** variable and all settings related to weather and time.
 - This script allows users to dynamically modify atmospheric conditions during the mission via the **ACE menu Weather / Time menu**.
 
 ---
