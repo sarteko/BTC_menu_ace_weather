@@ -11,6 +11,7 @@
 
 ### 1. 📝 **Introduction to the System**
 
+- **EXCLUSIVE VERSION FOR BTC missions.**
 - Activates ACE menu which allows you to change the weather and time in the game.
 - Currently, the system is in an **immature version**, so some features may require further development.
 
@@ -29,10 +30,7 @@
 - The ACE_Callphone is set to enable the **ACE menu Weather / Time menu** if it is present in the player's inventory; if it is not present, the weather functions will not be active. In case you are far from the object set to activate the function, this phone can be conveniently carried with you to view the menu in question.
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
-[] execVM "weather\weather_set.sqf";
-
-[] execVM "weather\OBJ_weather_set.sqf";
-
+        **[] execVM "weather_control_init.sqf";**
 
 - This ensures that the script is executed at mission startup, enabling dynamic weather and time management.
 
