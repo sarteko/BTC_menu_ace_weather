@@ -1,4 +1,5 @@
-# 🌦️ Weather & Time Management Script  
+# 🌦️BTC MISSION VERSION 1.0
+# Weather & Time Management Script 
 **Credit:** **ArTeK** & **Cruiser**  
 
 ---
