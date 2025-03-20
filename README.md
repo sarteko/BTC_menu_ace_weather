@@ -1,4 +1,4 @@
-# 🌦️BTC WEATER SERVER/CLIENT VERSION 1.0
+# 🌦️FIX for BTC WEATER SERVER/CLIENT VERSION 1.0
 # Weather & Time Management Script 
 **Credit:** **ArTeK** & **Cruiser**  
 
