@@ -28,7 +28,7 @@
 ### 3. 🔑 **How to Enable the Script in the Mission**
 
 - The **"time_sector"** variable is used to enable the **ACE menu Weather / Time menu** which allows you to change the weather and time in the game. It should be inserted into the variable name of the desired object.
-- The ACE_Callphone is set to enable the **ACE menu Weather / Time menu** if it is present in the player's inventory; if it is not present, the weather functions will not be active. In case you are far from the object set to activate the function, this phone can be conveniently carried with you to view the menu in question.
+- The ACE_Callphone is set to enable the **ACE menu Weather / Time menu** if it is present in the player's inventory, if it is not present, the weather functions will not be active. In case you are far from the object set to activate the function, this phone can be conveniently carried with you to view the menu in question.
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
         **[] execVM "weather\weather_control_init.sqf";**
