@@ -18,7 +18,7 @@
 
 ---
 
-### 2. ⚙️ **Function of the OBJ_weather_set.sqf File**
+### 2. ⚙️ **Function of the weather_control_static.sqf File**
 
 - The **weather_control_static.sqf** file manages the **"time_sector"** variable and all settings related to weather and time.
 - This script allows users to dynamically modify atmospheric conditions during the mission via the **ACE menu Weather / Time menu**.
@@ -31,7 +31,7 @@
 - The ACE_Callphone is set to enable the **ACE menu Weather / Time menu** if it is present in the player's inventory; if it is not present, the weather functions will not be active. In case you are far from the object set to activate the function, this phone can be conveniently carried with you to view the menu in question.
 - To properly activate the script, add the following commands to the **init.sqf** file of the mission:
 
-        **[] execVM "weather_control_init.sqf";**
+        **[] execVM "weather\weather_control_init.sqf";**
 
 - This ensures that the script is executed at mission startup, enabling dynamic weather and time management.
 
